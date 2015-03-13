@@ -1,5 +1,6 @@
 html {
 	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -42,14 +43,33 @@ h1 {
 	background-color: #e40e27;
 	color: white;
 	margin: 0em 0em 0em 0em;
+	font-size: 1em;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
 }
 
 h2 {
-	margin: 0em 0em 0em 0em;
+	color: white;
+	text-shadow: 1px 1px 1px #000
 }
 
 h3 {
 	margin: 0em 0em 0em 0em;
+}
+
+h4 {
+	margin: 0em 0em 0em 0em;
+	color: white;
+}
+
+h5{
+	margin: 0em 0em 0em 0em;
+	color: white;
+}
+
+h6{
+	margin: 0em 0em 0em 0em;
+
 }
 
 .dragon {
@@ -74,4 +94,6 @@ footer {
 	background-color: #222222;
 	color: white;
 	padding: 1.5em;
+	font-size: 0.7em;
+	text-align: center;
 }
