@@ -66,6 +66,10 @@ nav ul li {
 	background-color: #222222;
 }
 
+nav a:hover {
+	background-color:#e3c13d;
+}
+
 nav ul li a {
 	text-decoration: none;
 	color: white;
@@ -112,7 +116,7 @@ ol , li, ul {
 }
 
 p {
-	margin: 0em 0em 1em 0em;
+	margin: 0em 0.2em 1.5em 0.2em;
 }
 
 h1 {
@@ -124,7 +128,7 @@ h1 {
 	text-align: center;
 	position: absolute;
 	bottom: 20%;
-	left: 35%;
+	left: 37%;
 }
 
 .chinesezodiac {
