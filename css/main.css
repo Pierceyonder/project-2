@@ -24,6 +24,7 @@ div {
 .bannersheng {
 	position: relative;
 	padding: 0em;
+	clear:both;
 }
 
 header {
@@ -41,6 +42,30 @@ img {
 	margin: 0em;
 }
 
+nav ul {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	display: block;
+}
+
+nav ul li {
+		display: block;
+	border: 1px solid black;
+	width: 50%;
+	float: left;
+	background-color: #222222;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin: 0;
+	padding: .5em 0 .5em .5em;
+}
+
 .navtop {
 	text-align: center;
 	font-size: 1.3rem;
@@ -48,6 +73,7 @@ img {
 	padding: 0em;
 	clear: both;
 	background-color: #222222;
+	float: left;
 }
 
 .navbottom {
@@ -57,14 +83,7 @@ img {
 	padding: 0em;
 	clear: both;
 	background-color: #222222;
-}
-
-nav a {
-	color: white;
-	text-decoration: none;
-	display: block;
-	padding: 0.5em 0em 0.5em 0em;
-	border: 1px solid #111111;
+	float: left;
 }
 
 .medallion {
@@ -72,13 +91,15 @@ width: 100px;
 margin: 0 auto;
 display: block;
 position: relative;
+
 }
 
-ol {
+ol , li, ul {
 	margin: 0em;
 	text-decoration: none;
 	list-style-type: none;
 	padding: 0em;
+	display: block;
 
 }
 
@@ -131,6 +152,21 @@ h3 {
 	background-color: #e40e27;
 	color: white;
 	padding: 0.5em;
+}
+
+.dragon-symbol, .goat-icon, .rooster-symbol, .ox-icon {
+	float: left;
+	width: 50%;
+}
+
+.dragon-icon, .goat-symbol, .rooster-icon, .ox-symbol {
+	float: right;
+	width: 50%;
+
+}
+
+.roosterimage {
+	width: 50%;
 }
 
 .ox {
