@@ -35,6 +35,14 @@ header {
 	padding-top: 1em;
 	position: relative;
 }
+.zodiactext {
+	margin: 0em 0em 0em 0em;
+}
+
+.chinesetext {
+	font-size: 3.5em;
+	margin: 0em 0em 0em 0em;
+}
 
 img {
 	width: 50%;
@@ -104,18 +112,19 @@ ol , li, ul {
 }
 
 p {
-	margin: 0em 0em 0em 0em;
+	margin: 0em 0em 1em 0em;
 }
 
 h1 {
 	color: white;
 	margin: 0 auto;
-	font-size: 3.5rem;
+	font-size: 1rem;
 	text-shadow: 1px 1px 1px #000;
-	position: absolute;
-	display: block;
 	bottom: 10px;
 	text-align: center;
+	position: absolute;
+	bottom: 20%;
+	left: 35%;
 }
 
 .chinesezodiac {
