@@ -29,7 +29,7 @@ div {
 
 header {
 	text-align: center;
-	text-shadow: 0 2px 3px rgba(0, 0, 0, 200);
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 100%);
 	padding-bottom: 1em;
 	background-color: #e7001d;
 	padding-top: 1em;
@@ -187,3 +187,4 @@ footer {
 	color: white;
 	text-decoration: underline;
 	text-align: center;
+}
